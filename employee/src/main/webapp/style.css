@@ -1,0 +1,71 @@
+body {
+	font-family: Arial, sans-serif;
+}
+.background-img {
+	min-height: 200px;
+	background-size: white;
+	background-image: url("registration.jpg");
+}
+h1 {
+	margin: 0px auto;
+	margin-top: 50px;
+	margin-bottom: 20PX;
+	color: rgb(0, 0, 0);
+}
+form {
+	max-width: 400px;
+	margin-top: 40px;
+	margin: 0px auto;
+	padding: 20px;
+	background-color: rgb(240, 230, 249);
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+select {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid rgb(238, 243, 254);
+	border-color: black;
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-size: 16px;
+	background-color: #fff;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+textarea {
+	resize: vertical;
+}
+input[type="submit"] {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	border: none;
+	border-radius: 5px;
+	border-color: black;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+#myButton:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+.errors {
+	color: rgb(237, 51, 59);
+	font-size: 14px;
+	margin-top: 5px;
+}
